@@ -4,6 +4,7 @@ import LogoTitler from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom';
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters';
+import Logo from './Logo';
 
 const Home = () => {
 
@@ -21,8 +22,9 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={jobbArray} idx={20} />
                 </h1>
                 <h2> Backend Developer / Javascript / bash / scripts / python </h2>
-                <Link to="/contact" className='flat-button'>Contact ME</Link>
+                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     );
 }
